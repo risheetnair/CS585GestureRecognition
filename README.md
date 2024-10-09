@@ -31,9 +31,7 @@ The application assumes users are seated in a well-lit environment with a dark b
 2. **Circularity Measurement**:
    - Circularity is used to further distinguish between gestures that are similar in appearance, such as **B** and **U**.
    - The formula for circularity is used to calculate the roundness of the hand gesture:
-     \[
-     \text{Circularity} = \frac{{\text{perimeter}^2}}{{4 \pi \times \text{area}}}
-     \]
+        $$\text{Circularity} = \frac{{\text{perimeter}}^2}{4 \pi \times \text{area}}$$
    - This measurement helps disambiguate between gestures by checking their shape characteristics.
 
 3. **Skin Detection**:
